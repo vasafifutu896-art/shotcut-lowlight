@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="C" version="7.21.0" root="" parent="producer0">
+  <producer id="producer0">
+    <property name="resource">black</property>
+    <property name="mlt_service">color</property>
+    <property name="eof">pause</property>
+    <property name="shotcut:filtersClipboard">1</property>
+    <filter id="filter0">
+      <property name="mlt_service">frei0r.hqdn3d</property>
+      <property name="0">0.035</property>
+      <property name="1">0.055</property>
+    </filter>
+    <filter id="filter1">
+      <property name="mlt_service">lift_gamma_gain</property>
+      <property name="shotcut:filter_version">1</property>
+      <property name="lift_r">0</property>
+      <property name="gamma_r">1.6</property>
+      <property name="gain_r">0.96</property>
+      <property name="lift_g">0</property>
+      <property name="gamma_g">1.6</property>
+      <property name="gain_g">0.96</property>
+      <property name="lift_b">0</property>
+      <property name="gamma_b">1.6</property>
+      <property name="gain_b">0.96</property>
+    </filter>
+  </producer>
+</mlt>
